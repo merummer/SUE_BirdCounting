@@ -1,0 +1,19 @@
+{
+    "name": "merummer/sue_bird-counting",
+    "description": "Bird Countig",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Merummer\\SueBirdCounting\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Melissa Maria Rummer",
+            "email": "mrummer@schueler.hakzell.at"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
