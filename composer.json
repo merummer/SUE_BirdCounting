@@ -15,5 +15,14 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+
+    "repositories": [
+        {"type": "git",
+            "url": "git@github.com:perasser/bird-counting.git"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "perasser/bird-counting": "dev-main"
+    }
 }

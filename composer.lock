@@ -1,0 +1,46 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "7326eb10b5441b256f5781d27bb5c7a4",
+    "packages": [
+        {
+            "name": "perasser/bird-counting",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:perasser/bird-counting.git",
+                "reference": "31805b1a81e8a67e6dbbe7a88142cc7f9def6cfe"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Perasser\\BirdCounting\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Peter Rasser",
+                    "email": "peter.rasser@hakzell.at"
+                }
+            ],
+            "description": "Count birds",
+            "time": "2023-04-26T20:34:47+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
